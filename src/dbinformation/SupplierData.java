@@ -52,7 +52,7 @@ public class SupplierData implements SupplierDataInterface {
     @Override
     public ResultSet getSupplyCategories() throws SQLException {
         return getTableColumns("*", "supply_category");
-    }
+    } 
 
     @Override
     public ResultSet getCitiesAndCountries() throws SQLException{
